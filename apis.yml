@@ -1,7 +1,26 @@
 aid: eqrx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eqrx.png
 name: EQRx
-description: EQRx is a company surfaced as a portfolio company of a16z, gv and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EQRx was a biopharmaceutical company based in Cambridge, Massachusetts, founded in 2020
+  by Alexis Borisy with a mission to develop and deliver innovative, patent-protected
+  medicines at radically lower prices. The company went public in 2021 through a SPAC merger
+  with CM Life Sciences III and built an oncology and immunology pipeline anchored by in-licensed
+  candidates such as aumolertinib and sugemalimab. In 2023 EQRx wound down its drug-development
+  programs and was acquired by Revolution Medicines in an all-stock transaction. It was surfaced
+  in the API Evangelist network as a portfolio-company lead (backed by a16z and GV); it never
+  operated a public developer platform or API, and its web presence is no longer live.
 url: https://raw.githubusercontent.com/api-evangelist/eqrx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,35 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Acquired by Revolution Medicines (2023); drug-development wound down; no live developer surface.
+x-headquarters: Cambridge, Massachusetts, United States
+x-founded: '2020'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biopharmaceutical
+- Pharmaceuticals
+- Biotechnology
+- Oncology
+- Drug Development
+- Life Sciences
+- Healthcare
+common:
+- type: DomainSecurity
+  url: security/eqrx-domain-security.yml
+- type: Website
+  url: https://eqrx.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
