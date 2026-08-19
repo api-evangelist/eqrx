@@ -33,7 +33,7 @@ x-status: defunct
 x-status-note: Acquired by Revolution Medicines (2023); drug-development wound down; no live developer surface.
 x-headquarters: Cambridge, Massachusetts, United States
 x-founded: '2020'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
