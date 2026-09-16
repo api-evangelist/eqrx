@@ -23,15 +23,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eqrx.png
 name: EQRx
-description: >-
-  EQRx was a biopharmaceutical company based in Cambridge, Massachusetts, founded in 2020
-  by Alexis Borisy with a mission to develop and deliver innovative, patent-protected
-  medicines at radically lower prices. The company went public in 2021 through a SPAC merger
-  with CM Life Sciences III and built an oncology and immunology pipeline anchored by in-licensed
-  candidates such as aumolertinib and sugemalimab. In 2023 EQRx wound down its drug-development
-  programs and was acquired by Revolution Medicines in an all-stock transaction. It was surfaced
-  in the API Evangelist network as a portfolio-company lead (backed by a16z and GV); it never
-  operated a public developer platform or API, and its web presence is no longer live.
+description: EQRx was a biopharmaceutical company based in Cambridge, Massachusetts, founded in 2020 by
+  Alexis Borisy with a mission to develop and deliver innovative, patent-protected medicines at radically
+  lower prices. The company went public in 2021 through a SPAC merger with CM Life Sciences III and built
+  an oncology and immunology pipeline anchored by in-licensed candidates such as aumolertinib and sugemalimab.
+  In 2023 EQRx wound down its drug-development programs and was acquired by Revolution Medicines in an
+  all-stock transaction. It was surfaced in the API Evangelist network as a portfolio-company lead (backed
+  by a16z and GV); it never operated a public developer platform or API, and its web presence is no longer
+  live.
 url: https://raw.githubusercontent.com/api-evangelist/eqrx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -41,12 +40,13 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-note: Acquired by Revolution Medicines (2023); drug-development wound down; no live developer surface.
+x-status-note: Acquired by Revolution Medicines (2023); drug-development wound down; no live developer
+  surface.
 x-headquarters: Cambridge, Massachusetts, United States
 x-founded: '2020'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Biopharmaceutical
@@ -56,6 +56,7 @@ tags:
 - Drug Development
 - Life Sciences
 - Healthcare
+- Defunct
 common:
 - type: DomainSecurity
   url: security/eqrx-domain-security.yml
